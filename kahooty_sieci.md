@@ -86,9 +86,7 @@
     - Przepływ ruchu danych
 5. Które z poniższych elementów można symulować w Cisco Packet Tracer?
     - Switche (przełączniki) i routery
-    - Komput
-
-ery i urządzenia końcowe
+    - Komputery i urządzenia końcowe
     - Serwery i urządzenia sieciowe
 6. Jakie korzyści przynosi nauka za pomocą Cisco Packet Tracer?
     - Bezpieczne i realistyczne środowisko do nauki sieci komputerowych
