@@ -1,6 +1,3 @@
-Here is the markdown suitable for GitHub:
-
-```markdown
 **Kahoot 1**
 1. Prawda czy Fałsz: Protokół TCP zapewnia niezawodne połączenie, ponieważ wykorzystuje potwierdzenia i kontrolę przepływu.
     - Prawda
