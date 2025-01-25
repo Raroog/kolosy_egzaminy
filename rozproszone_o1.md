@@ -133,4 +133,16 @@ Odpowiedź więc: **wykonanie nie jest sekwencyjnie spójne**.
    - Nie da się uzyskać spójności sekwencyjnej z zaobserwowanymi odczytami (\(a=0, b=0\) przy wcześniej wykonanych pisaniach).  
    - Odpowiedź: **NIE**, nie jest sekwencyjnie spójne.
 
+
 Mam nadzieję, że to klaruje, w jaki sposób rozwiązać powyższe przykłady i skąd biorą się odpowiedzi. W razie dalszych wątpliwości daj znać!
+
+
+Zwykle przyjmuje się, że „awarią całego systemu” jest sytuacja, w której co najmniej jeden z komputerów przestaje działać. Skoro każdy komputer ma prawdopodobieństwo 0,1 awarii w ciągu roku, to:
+
+- Prawdopodobieństwo, że **dany** komputer *nie* ulegnie awarii, wynosi \(1 - 0{,}1 = 0{,}9\).
+- Aby żaden z 5 komputerów nie uległ awarii (a więc by cały system *nie* padł), potrzebujemy niezawodności wszystkich jednocześnie, co daje \((0{,}9)^5\).
+- Zatem prawdopodobieństwo co najmniej jednej awarii (czyli awarii systemu w tym sensie) to
+  \[
+    1 \;-\; (0{,}9)^5 \;=\; 1 - 0{,}59049 \;\approx\; 0{,}40951.
+  \]
+Inaczej mówiąc, **ok. 40,95%** szans na to, że w ciągu roku system zawiedzie, jeśli wystarczy uszkodzenie jednego komputera spośród pięciu.
